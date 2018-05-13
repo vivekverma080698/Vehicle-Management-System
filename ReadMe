@@ -1,0 +1,57 @@
+/*---------------------------------------------------------------------------------------
+    
+      Programmer :-  Vivek Kumar Verma
+      Entry No.  :-  2016CSB1064
+      Subject    :-  Online vehicle management system
+      Guided by  :-  Sir. Mukesh Saini
+   
+I have used the folowing functions
+
+  void addnode(std::string& name, std::string& color,int& mileage,int& top_speed,int& no_gear); 
+  void addnode(std::string& name, std::string& color,int& mileage,int& top_speed,int& no_gear,int& no_seat);
+  void addnode(std::string& name, std::string& color,int& mileage,int& top_speed,int& no_gear,int& w_capacity,int& v_capacity); 
+  void deletenode(std::string& name,int& count);
+  void printcar();
+  void printbus();
+  void printtruck();
+  void printdetailcar(std::string& key);
+  void printdetailbus(std::string& key);
+  void printdetailtruck(std::string& key);
+  void watermelon(int& num,int& count);
+  void book(std::string& key);
+  void bookedcar();
+  void bookedbus();
+  void bookedtruck();
+  void people(int& num,int&count);
+
+● Function overloading of function addnode
+● Constructors​ ​ and​ ​ destructors used to initialize  and destroy
+● Inheritance  used to inherit same properties from vehicle class by car_node ,bus_node,truck_node
+● Virtual​ ​ functions not used 
+● Dynamic​ ​ memory​ ​ allocation new delete used
+● Function​ ​ templates  T
+● Access​ ​ specifiers public protected private used
+
+How to Run?
+
+$ make
+$./output
+
+Then you will be asked to enter you should only enter the DIGITS for choosing option. 
+Enter Y for entering the menu and N for going out of menu.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
